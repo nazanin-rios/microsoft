@@ -1,0 +1,111 @@
+body,
+button {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+:root {
+  --clr-dark: #424242;
+  --clr-light: #fff;
+  --clr-blue: #418cfc;
+}
+/* 
+
+sign-in
+
+*/
+
+body {
+  height: 100vh;
+}
+.part1 {
+  height: 350px;
+  background-color: var(--clr-light);
+  width: 95%;
+  margin: 0 2.5%;
+  position: relative;
+  padding: 30px;
+}
+.sign-in {
+  height: 420px;
+}
+.sign-in img {
+  width: 120px;
+}
+.sign-in h1 {
+  font-weight: 700;
+}
+.sign-in input {
+  border: 0;
+  border-bottom: 1px solid var(--clr-dark);
+  outline: none;
+  background-color: transparent;
+}
+.sign-in input:focus {
+  border-bottom: 1px solid var(--clr-blue);
+}
+.sign-in a:hover {
+  border-bottom: var(--clr-dark);
+  color: var(--clr-dark);
+}
+.sign-in button {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.bxs-key {
+  font-size: 2.5rem;
+}
+.key {
+  cursor: pointer;
+  padding: 0 30px;
+  width: 95%;
+  margin: 0 2.5%;
+  height: 50px;
+  background-color: var(--clr-light);
+}
+.key p:hover {
+  background-color: #d6d6d6;
+}
+.key p {
+  border: 1px solid var(--clr-dark);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--clr-dark);
+}
+@media screen and (min-width: 576px) {
+  .part1,
+  .key {
+    box-shadow: 0 0.5rem 1rem #b9b9b9;
+  }
+  .key p {
+    border: 0;
+  }
+  .part1 {
+    padding: 50px;
+  }
+  .sign-in {
+    width: 450px;
+  }
+  .key:hover {
+    background-color: #d6d6d6;
+  }
+  body {
+    background: linear-gradient(
+      130deg,
+      #e9d6d0,
+      #d7dde3 40%,
+      #d7dde3 70%,
+      #e9d6d0
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
