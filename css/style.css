@@ -111,6 +111,7 @@ html {
 main
 
 slider
+
 */
 .h2-slider {
   font-weight: 700;
@@ -221,6 +222,8 @@ slider
 
 section 2
 
+shop
+
 */
 
 .img-icon {
@@ -234,13 +237,15 @@ section 2
 .a-icon:hover {
   color: var(--clr-blue);
 }
-
 /*
 
 section3
 
-*/
+and 
 
+section5
+
+*/
 .box-1 {
   height: 500px;
   position: relative;
@@ -250,18 +255,12 @@ section3
   object-fit: cover;
   object-position: center;
 }
-.h-40 {
-  height: 40%;
-}
-.box-1 {
-  width: 90%;
-}
 .box-1 h2 {
   font-size: 2.3rem;
 }
 .box1-3 > button,
 .btn-box1 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .apple-a {
   border: 2px dashed transparent;
@@ -287,68 +286,21 @@ section3
 .business-section {
   margin-top: 50px;
 }
-@media screen and (min-width: 576px) {
-  .box-1 {
-    width: 45%;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .box-1 {
-    width: 22%;
-  }
-}
-
-/* 
-
-section4
-
-*/
-.explor h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-.explor-box {
-  height: 480px;
-  width: 95%;
-  cursor: pointer;
-  position: relative;
-  margin-left: 2.5%;
-}
-.explor-box > button {
-  font-size: 1.5rem;
-  position: absolute;
-  bottom: 10px;
-}
-.explor-box h2 {
-  font-size: 2.5rem;
-}
-.explor-box img {
-  object-fit: cover;
-}
-@media screen and (min-width: 576px) {
-  .explor-box {
-    height: 500px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .explor-box {
     height: 550px;
   }
 }
-@media screen and (min-width: 992px) {
-  .explor-box {
-    width: 30%;
-    height: 400px;
+@media screen and (min-width: 1200px) {
+  .box-1 {
+    height: 500px;
   }
 }
-
 /* 
 
-secton5
+section 4
 
 */
-
 .game {
   cursor: pointer;
 }
@@ -400,6 +352,48 @@ secton5
     width: 50%;
   }
 }
+
+/* 
+
+section6
+
+*/
+.explor h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.explor-box {
+  height: 480px;
+  cursor: pointer;
+  margin-left: 2.5%;
+}
+.explor-box button {
+  font-size: 1.5rem;
+  bottom: 10px;
+}
+.explor-box h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.explor-box img {
+  object-fit: cover;
+}
+@media screen and (min-width: 576px) {
+  .explor-box {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .explor-box {
+    height: 550px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .explor-box {
+    height: 400px;
+  }
+}
+
 /*
 
  slider 2 
